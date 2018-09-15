@@ -175,11 +175,11 @@ var bc = new Discord.RichEmbed()
 .setColor('RANDOM')
 .setDescription(`
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ●
-🚗Server : ***${message.guild.name}***
 
 🗿Sender : ***${message.author.username}***
 
 📲Message : ***${args}***
+
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ●
 `)           
 m.send({ embed: bc })
