@@ -126,7 +126,7 @@ return;
             .addField(' » message : ', args)
             .setFooter('Dating Team')
             .setColor('#ff0000')
-            // m.send(`[${m}]`);
+            
             m.send(`${m}`,{embed: bc});
         });
     }
